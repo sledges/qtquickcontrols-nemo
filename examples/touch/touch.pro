@@ -3,6 +3,9 @@ QT += qml quick
 TARGET = touch_nemo
 target.path = /usr/lib/qt5/examples
 
+desktop.files = touch_nemo.desktop
+desktop.path = /usr/share/applications
+
 qtHaveModule(widgets) {
     QT += widgets
 }
@@ -24,4 +27,4 @@ OTHER_FILES += \
 RESOURCES += \
     resources.qrc
 
-INSTALLS += target
+INSTALLS += target desktop

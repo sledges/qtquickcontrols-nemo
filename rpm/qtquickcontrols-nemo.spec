@@ -65,3 +65,5 @@ rm -rf %{buildroot}
 %files examples
 %defattr(-,root,root,-)
 %{_libdir}/qt5/examples/touch_nemo
+%{_datadir}/applications/touch_nemo.desktop
+
