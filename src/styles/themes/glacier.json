@@ -57,6 +57,10 @@
         },
         "label": {
             "color": "white"
+        },
+        "checkbox": {
+            "back1": "#0091e5",
+            "back2": "#313131"
         }
     }
 }
